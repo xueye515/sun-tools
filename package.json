@@ -1,0 +1,28 @@
+{
+  "name": "sun-tools",
+  "version": "1.1.0",
+  "description": "工具库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "bin": {
+    "sun-tools": "./src/tools/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "jscodeshift": "^0.6.4",
+    "win-spawn": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6"
+  }
+}
